@@ -1,0 +1,509 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		487B694E287D79DA00DE5471 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B694D287D79DA00DE5471 /* AppDelegate.swift */; };
+		487B6950287D79DA00DE5471 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B694F287D79DA00DE5471 /* SceneDelegate.swift */; };
+		487B6952287D79DA00DE5471 /* RestaurantViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B6951287D79DA00DE5471 /* RestaurantViewController.swift */; };
+		487B6955287D79DA00DE5471 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487B6953287D79DA00DE5471 /* Main.storyboard */; };
+		487B6957287D79DB00DE5471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 487B6956287D79DB00DE5471 /* Assets.xcassets */; };
+		487B695A287D79DB00DE5471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 487B6958287D79DB00DE5471 /* LaunchScreen.storyboard */; };
+		487B696C287D7A6A00DE5471 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B6967287D7A6A00DE5471 /* Route.swift */; };
+		487B696D287D7A6A00DE5471 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B6968287D7A6A00DE5471 /* Method.swift */; };
+		487B696E287D7A6A00DE5471 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B6969287D7A6A00DE5471 /* AppError.swift */; };
+		487B696F287D7A6A00DE5471 /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B696A287D7A6A00DE5471 /* ApiResponse.swift */; };
+		487B6970287D7A6A00DE5471 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B696B287D7A6A00DE5471 /* NetworkService.swift */; };
+		487B6972287D7B2700DE5471 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B6971287D7B2700DE5471 /* String+Extensions.swift */; };
+		487B6974287D7B8F00DE5471 /* RestaurantResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B6973287D7B8F00DE5471 /* RestaurantResponse.swift */; };
+		487B697C287D7F5800DE5471 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B697B287D7F5800DE5471 /* CardView.swift */; };
+		487B697E287D7FE700DE5471 /* RestaurantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B697D287D7FE700DE5471 /* RestaurantViewModel.swift */; };
+		487B6980287D831500DE5471 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B697F287D831500DE5471 /* UIView+Extensions.swift */; };
+		487B6982287D899600DE5471 /* NoodlesImageResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B6981287D899600DE5471 /* NoodlesImageResponse.swift */; };
+		487B6986287D9AF500DE5471 /* NoodlesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B6985287D9AF500DE5471 /* NoodlesViewController.swift */; };
+		487B6988287D9B6D00DE5471 /* NoodlesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B6987287D9B6D00DE5471 /* NoodlesViewModel.swift */; };
+		487B698D287D9CA900DE5471 /* NoodlesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B698B287D9CA900DE5471 /* NoodlesCollectionViewCell.swift */; };
+		487B698E287D9CA900DE5471 /* NoodlesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 487B698C287D9CA900DE5471 /* NoodlesCollectionViewCell.xib */; };
+		487B6991287D9DA500DE5471 /* RestaurantCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487B698F287D9DA500DE5471 /* RestaurantCollectionViewCell.swift */; };
+		487B6992287D9DA500DE5471 /* RestaurantCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 487B6990287D9DA500DE5471 /* RestaurantCollectionViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		487B694A287D79DA00DE5471 /* NoodlesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoodlesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		487B694D287D79DA00DE5471 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		487B694F287D79DA00DE5471 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		487B6951287D79DA00DE5471 /* RestaurantViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewController.swift; sourceTree = "<group>"; };
+		487B6954287D79DA00DE5471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		487B6956287D79DB00DE5471 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		487B6959287D79DB00DE5471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		487B695B287D79DB00DE5471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		487B6967287D7A6A00DE5471 /* Route.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		487B6968287D7A6A00DE5471 /* Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		487B6969287D7A6A00DE5471 /* AppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		487B696A287D7A6A00DE5471 /* ApiResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
+		487B696B287D7A6A00DE5471 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		487B6971287D7B2700DE5471 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		487B6973287D7B8F00DE5471 /* RestaurantResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantResponse.swift; sourceTree = "<group>"; };
+		487B697B287D7F5800DE5471 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		487B697D287D7FE700DE5471 /* RestaurantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantViewModel.swift; sourceTree = "<group>"; };
+		487B697F287D831500DE5471 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		487B6981287D899600DE5471 /* NoodlesImageResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoodlesImageResponse.swift; sourceTree = "<group>"; };
+		487B6985287D9AF500DE5471 /* NoodlesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoodlesViewController.swift; sourceTree = "<group>"; };
+		487B6987287D9B6D00DE5471 /* NoodlesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoodlesViewModel.swift; sourceTree = "<group>"; };
+		487B698B287D9CA900DE5471 /* NoodlesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoodlesCollectionViewCell.swift; sourceTree = "<group>"; };
+		487B698C287D9CA900DE5471 /* NoodlesCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NoodlesCollectionViewCell.xib; sourceTree = "<group>"; };
+		487B698F287D9DA500DE5471 /* RestaurantCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantCollectionViewCell.swift; sourceTree = "<group>"; };
+		487B6990287D9DA500DE5471 /* RestaurantCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RestaurantCollectionViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		487B6947287D79DA00DE5471 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		487B6941287D79DA00DE5471 = {
+			isa = PBXGroup;
+			children = (
+				487B694C287D79DA00DE5471 /* NoodlesApp */,
+				487B694B287D79DA00DE5471 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		487B694B287D79DA00DE5471 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				487B694A287D79DA00DE5471 /* NoodlesApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		487B694C287D79DA00DE5471 /* NoodlesApp */ = {
+			isa = PBXGroup;
+			children = (
+				487B6966287D79FA00DE5471 /* Networking */,
+				487B6965287D79EE00DE5471 /* Model */,
+				487B6964287D79EB00DE5471 /* View */,
+				487B6963287D79E700DE5471 /* ViewModel */,
+				487B6962287D79E400DE5471 /* Controller */,
+				487B6961287D79E000DE5471 /* Extensions */,
+				487B694D287D79DA00DE5471 /* AppDelegate.swift */,
+				487B694F287D79DA00DE5471 /* SceneDelegate.swift */,
+				487B6958287D79DB00DE5471 /* LaunchScreen.storyboard */,
+				487B6956287D79DB00DE5471 /* Assets.xcassets */,
+				487B695B287D79DB00DE5471 /* Info.plist */,
+			);
+			path = NoodlesApp;
+			sourceTree = "<group>";
+		};
+		487B6961287D79E000DE5471 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				487B6971287D7B2700DE5471 /* String+Extensions.swift */,
+				487B697F287D831500DE5471 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		487B6962287D79E400DE5471 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				487B6951287D79DA00DE5471 /* RestaurantViewController.swift */,
+				487B6985287D9AF500DE5471 /* NoodlesViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		487B6963287D79E700DE5471 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				487B6987287D9B6D00DE5471 /* NoodlesViewModel.swift */,
+				487B697D287D7FE700DE5471 /* RestaurantViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		487B6964287D79EB00DE5471 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				487B6953287D79DA00DE5471 /* Main.storyboard */,
+				487B6975287D7D9E00DE5471 /* CollectionViewCells */,
+				487B697A287D7F0B00DE5471 /* CardView */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		487B6965287D79EE00DE5471 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				487B6973287D7B8F00DE5471 /* RestaurantResponse.swift */,
+				487B6981287D899600DE5471 /* NoodlesImageResponse.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		487B6966287D79FA00DE5471 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				487B696A287D7A6A00DE5471 /* ApiResponse.swift */,
+				487B6969287D7A6A00DE5471 /* AppError.swift */,
+				487B6968287D7A6A00DE5471 /* Method.swift */,
+				487B696B287D7A6A00DE5471 /* NetworkService.swift */,
+				487B6967287D7A6A00DE5471 /* Route.swift */,
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		487B6975287D7D9E00DE5471 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				487B6989287D9C7C00DE5471 /* Restaurant */,
+				487B698A287D9C8700DE5471 /* Noodles */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		487B697A287D7F0B00DE5471 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				487B697B287D7F5800DE5471 /* CardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		487B6989287D9C7C00DE5471 /* Restaurant */ = {
+			isa = PBXGroup;
+			children = (
+				487B698F287D9DA500DE5471 /* RestaurantCollectionViewCell.swift */,
+				487B6990287D9DA500DE5471 /* RestaurantCollectionViewCell.xib */,
+			);
+			path = Restaurant;
+			sourceTree = "<group>";
+		};
+		487B698A287D9C8700DE5471 /* Noodles */ = {
+			isa = PBXGroup;
+			children = (
+				487B698B287D9CA900DE5471 /* NoodlesCollectionViewCell.swift */,
+				487B698C287D9CA900DE5471 /* NoodlesCollectionViewCell.xib */,
+			);
+			path = Noodles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		487B6949287D79DA00DE5471 /* NoodlesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 487B695E287D79DB00DE5471 /* Build configuration list for PBXNativeTarget "NoodlesApp" */;
+			buildPhases = (
+				487B6946287D79DA00DE5471 /* Sources */,
+				487B6947287D79DA00DE5471 /* Frameworks */,
+				487B6948287D79DA00DE5471 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoodlesApp;
+			productName = NoodlesApp;
+			productReference = 487B694A287D79DA00DE5471 /* NoodlesApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		487B6942287D79DA00DE5471 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					487B6949287D79DA00DE5471 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 487B6945287D79DA00DE5471 /* Build configuration list for PBXProject "NoodlesApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 487B6941287D79DA00DE5471;
+			productRefGroup = 487B694B287D79DA00DE5471 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				487B6949287D79DA00DE5471 /* NoodlesApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		487B6948287D79DA00DE5471 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487B6992287D9DA500DE5471 /* RestaurantCollectionViewCell.xib in Resources */,
+				487B695A287D79DB00DE5471 /* LaunchScreen.storyboard in Resources */,
+				487B698E287D9CA900DE5471 /* NoodlesCollectionViewCell.xib in Resources */,
+				487B6957287D79DB00DE5471 /* Assets.xcassets in Resources */,
+				487B6955287D79DA00DE5471 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		487B6946287D79DA00DE5471 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				487B6980287D831500DE5471 /* UIView+Extensions.swift in Sources */,
+				487B696D287D7A6A00DE5471 /* Method.swift in Sources */,
+				487B6974287D7B8F00DE5471 /* RestaurantResponse.swift in Sources */,
+				487B6952287D79DA00DE5471 /* RestaurantViewController.swift in Sources */,
+				487B6970287D7A6A00DE5471 /* NetworkService.swift in Sources */,
+				487B6982287D899600DE5471 /* NoodlesImageResponse.swift in Sources */,
+				487B696E287D7A6A00DE5471 /* AppError.swift in Sources */,
+				487B697E287D7FE700DE5471 /* RestaurantViewModel.swift in Sources */,
+				487B6972287D7B2700DE5471 /* String+Extensions.swift in Sources */,
+				487B6986287D9AF500DE5471 /* NoodlesViewController.swift in Sources */,
+				487B696F287D7A6A00DE5471 /* ApiResponse.swift in Sources */,
+				487B698D287D9CA900DE5471 /* NoodlesCollectionViewCell.swift in Sources */,
+				487B696C287D7A6A00DE5471 /* Route.swift in Sources */,
+				487B694E287D79DA00DE5471 /* AppDelegate.swift in Sources */,
+				487B697C287D7F5800DE5471 /* CardView.swift in Sources */,
+				487B6991287D9DA500DE5471 /* RestaurantCollectionViewCell.swift in Sources */,
+				487B6950287D79DA00DE5471 /* SceneDelegate.swift in Sources */,
+				487B6988287D9B6D00DE5471 /* NoodlesViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		487B6953287D79DA00DE5471 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				487B6954287D79DA00DE5471 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		487B6958287D79DB00DE5471 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				487B6959287D79DB00DE5471 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		487B695C287D79DB00DE5471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		487B695D287D79DB00DE5471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		487B695F287D79DB00DE5471 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NoodlesApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techversant.NoodlesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		487B6960287D79DB00DE5471 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NoodlesApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techversant.NoodlesApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		487B6945287D79DA00DE5471 /* Build configuration list for PBXProject "NoodlesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487B695C287D79DB00DE5471 /* Debug */,
+				487B695D287D79DB00DE5471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		487B695E287D79DB00DE5471 /* Build configuration list for PBXNativeTarget "NoodlesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				487B695F287D79DB00DE5471 /* Debug */,
+				487B6960287D79DB00DE5471 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 487B6942287D79DA00DE5471 /* Project object */;
+}
